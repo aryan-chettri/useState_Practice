@@ -4,9 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import Controlled_Input_Field from './Controlled_Input_Field.jsx'
 import Toggle_Visibility from './Toggle_Visibility.jsx'
+import Character_Counter from './Character_Counter.jsx'
+import Character_Counter_2 from './Character_Counter_2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Toggle_Visibility />
+    <Character_Counter_2/>
   </StrictMode>,
 )
