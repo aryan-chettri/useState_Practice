@@ -9,9 +9,10 @@ import Character_Counter_2 from './Character_Counter_2.jsx'
 import Todo_application from './Todo_application.jsx'
 import Color_Switcher from './Color_Switcher.jsx'
 import Search_Filter from './Search_Filter.jsx'
+import Drag_and_Drop_List from './Drag_and_Drop_List.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Search_Filter />
+    <Drag_and_Drop_List />
   </StrictMode>,
 )
