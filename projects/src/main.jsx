@@ -7,9 +7,10 @@ import Toggle_Visibility from './Toggle_Visibility.jsx'
 import Character_Counter from './Character_Counter.jsx'
 import Character_Counter_2 from './Character_Counter_2.jsx'
 import Todo_application from './Todo_application.jsx'
+import Color_Switcher from './Color_Switcher.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Todo_application />
+    <Color_Switcher />
   </StrictMode>,
 )
