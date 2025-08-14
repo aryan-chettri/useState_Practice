@@ -8,9 +8,10 @@ import Character_Counter from './Character_Counter.jsx'
 import Character_Counter_2 from './Character_Counter_2.jsx'
 import Todo_application from './Todo_application.jsx'
 import Color_Switcher from './Color_Switcher.jsx'
+import Search_Filter from './Search_Filter.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Color_Switcher />
+    <Search_Filter />
   </StrictMode>,
 )
